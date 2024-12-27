@@ -13,7 +13,6 @@
         "packagesPath": "/Users/alysonryanullirsch/.nuget/packages/",
         "outputPath": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Api/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/alysonryanullirsch/.nuget/NuGet/NuGet.Config"
         ],
@@ -38,11 +37,22 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
