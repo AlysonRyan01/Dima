@@ -1,4 +1,5 @@
-<strong>Projeto de site completo</strong>
+<strong>Documentando o projeto</strong>
+<br>
 <br>
 <strong>1- Criando o projeto:</strong>
     <br>
