@@ -38,7 +38,52 @@
     <br>
     g. Adicionamos ao builder.Services.AddSwaggerGen(x =>
                         {
-                            x.CustomSchemaIds(n => n.FullName); // Usado para nao confundir o Swagger caso tenha mais de    classe ou funcao com o mesmo nome.
-                        }); 
+                            x.CustomSchemaIds(n => n.FullName); 
+                        }); // Usado para nao confundir o Swagger caso tenha mais de    classe ou funcao com o mesmo nome.
     <br>
     h. app.UseSwagger(); app.UseSwaggerUI(); // Vão gerar a interface web.
+    <br>
+    i. Fizemos uma referencia do Dima.Api no Dima.Core.
+    <br>
+    j. Criando a Pasta Data e adicionando a classe AppDbContext nele;
+    <br>
+    k. dotnet add package Microsoft.EntityFrameWorkCore.SqlServer // Adicionando o pacote do SqlServer.
+    <br>
+    l. dotnet add package Microsoft.EntityFrameWorkCore.Design // Serve para criar migracoes.
+    <br>
+    m. public class AppDbContext : DbContext // Adicionando a heranca do DbContext no nosso AppDbContext, o DbContext representa o nosso banco de dados em memoria.
+    <br>
+    n. public DbSet<Category> Categories {get;set;} = null!;, public DbSet<Transaction> Transactions {get;set;} = null!; // Adicionando o DbSet de Category e Transaction no AppDbContext, cada DbSet representa uma tabela no banco de dados em memoria.
+    <br>
+    o. protected override onmodelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+    } // Esse metodo vai ser acionado quando a gente estiver criando o banco de dados pela primeira vez, o modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly) serve para aplicar os Mappings que fizemos, como CategoryMap e TransactionMap. Ele vai varrer o Projeto todo e configurar os Mappings que estao herdando o IEntityTypeConfiguration<>.
+    <br>
+    p. Criando a pasta Mappings e adicionando o mapeamento de CategoryMap e TransactionMap com o FluentMap. Todos os Mappings como CategoryMap vao precisar herdar da interface IEntityTypeConfiguration<Category> e implementar o metodo public void Configure(EntityTypeBuilder<Category> builder), dentro desse metodo ficam as configuracoes da tabela.
+    <br>
+    q. Precisamos adicionar uma ConnectionStrings no appsettings.json e recuperar ela no Program.cs com o var ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");.
+    <br>
+    r. builder.Services.AddDbContext<AppDbContext>(x =>
+    {
+        x.UseSqlServer(ConnectionString);
+    }); // Configurando a nossa API para usar SQL SERVER e passando a connection string;
+    <br>
+    s. dotnet user-secrets init // Vai armazenar informacoes importantes que nao podem ser visualizados por pessoas, como a connection string. dotnet user-secrets set "ConnectionStrings:DefaultConnection" "Server=localhost,1433;Database=balta;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=False; TrustServerCertificate=True;" // Vai adicionar a nossa connection string no user-secrets.
+    <br>
+    t. dotnet tool install --global dotnet-ef // Vai instalar a ferramente necessaria para criarmos as migrations.
+    <br>
+    u. Agora so falta aplicar as migracoes com dotnet ef migration add v1, e dotnet ef database update.
+    <br>
+
+<strong>5- Padronizando as requests e as responses no Dima.Core:</strong>
+    <br>
+    a. Criando as pastas Requests e Responses;
+    <br>
+    b. Criamos uma classe abstrata chamada BaseRequest.
+    <br>
+    c. Criamos uma classe abstrata chamada PagedRequest para fazer a paginacao caso tenhamos muitos items, senao usamos a BaseRequest mesmo. Essa classe herda de BaseRequest.
+    <br>
+    d. Criamos uma classe chamada Response na pasta Responses.
+    <br>
+    e. Criando a classe PagedResponse.
