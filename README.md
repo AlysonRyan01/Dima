@@ -80,10 +80,12 @@
     <br>
     a. Criando as pastas Requests e Responses;
     <br>
-    b. Criamos uma classe abstrata chamada BaseRequest.
+    b. Criamos as classes abstratas chamada BaseRequest e a PagedRequest, para servir como base para as outras classes.
     <br>
-    c. Criamos uma classe abstrata chamada PagedRequest para fazer a paginacao caso tenhamos muitos items, senao usamos a BaseRequest mesmo. Essa classe herda de BaseRequest.
+    c. Criamos uma classe chamada Response na pasta Responses.
     <br>
-    d. Criamos uma classe chamada Response na pasta Responses.
+    d. Criamos as classes abstratas chamada BaseResponse e a PagedResponse, para servir como base para as outras classes.
     <br>
-    e. Criando a classe PagedResponse.
+    e. Criamos a classe estatica Configuration na raiz do Core para armazenar as configuracoes padroes.
+    <br>
+    f. 
