@@ -88,4 +88,11 @@
     <br>
     e. Criamos a classe estatica Configuration na raiz do Core para armazenar as configuracoes padroes.
     <br>
-    f. 
+    f. Criamos uma pasta Handlers para definir os contratos com interfaces dos modelos, como ICategoryHandler.
+    <br>
+
+<strong>6- Criando os handlers no Dima.Api utilizando os contratos das interfaces do Core:</strong>
+    <br>
+    a. Criamos o CateogoryHandler que herda de ICategoryHandler para cumprir todos os contratos.
+    <br>
+    b. 
