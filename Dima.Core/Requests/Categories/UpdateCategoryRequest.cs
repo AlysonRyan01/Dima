@@ -4,6 +4,8 @@ namespace Dima.Core.Requests.Categories;
 
 public class UpdateCategoryRequest : BaseRequest
 {
+    public long Id { get; set; }
+    
     [Required(ErrorMessage = "Título é obrigatório.")]
     [MaxLength(80, ErrorMessage = "O título deve conter no máximo 80 caracteres.")]
     [MinLength(3, ErrorMessage = "O título deve conter pelo menos 3 caracteres.")]
