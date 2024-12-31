@@ -4,7 +4,6 @@ using Dima.Core.Models;
 using Dima.Core.Requests.Categories;
 using Dima.Core.Responses;
 using Microsoft.EntityFrameworkCore;
-using Exception = System.Exception;
 
 namespace Dima.Api.Handlers;
 
@@ -103,7 +102,7 @@ public class CategoryHandler(AppDbContext context) : ICategoryHandler
         }
     }
 
-    public async Task<Response<List<Category?>>> GetAllAsync(GetAllCategoriesRequest getAllCategoriesRequest)
+    public async Task<Response<List<Category>>> GetAllAsync(GetAllCategoriesRequest getAllCategoriesRequest)
     {
         try
         {
@@ -119,11 +118,11 @@ public class CategoryHandler(AppDbContext context) : ICategoryHandler
             
             var count = await query.CountAsync();
             
-            return new PagedResponse<List<Category?>>(categories, count, getAllCategoriesRequest.PageNumber, getAllCategoriesRequest.PageSize);
+            return new PagedResponse<List<Category>>(categories, count, getAllCategoriesRequest.PageNumber, getAllCategoriesRequest.PageSize);
         }
         catch
         {
-            return new Response<List<Category?>>(null, 500, "Falha ao obter as categorias!");
+            return new Response<List<Category>>(null, 500, "Falha ao obter as categorias!");
         }
     }
 }

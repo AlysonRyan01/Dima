@@ -10,5 +10,5 @@ public interface ICategoryHandler
     Task<Response<Category?>> UpdateAsync(UpdateCategoryRequest updateCategoryRequest);
     Task<Response<Category?>> DeleteAsync(DeleteCategoryRequest deleteCategoryRequest);
     Task<Response<Category?>> GetByIdAsync(GetCategoryByIdRequest getCategoryByIdRequest);
-    Task<Response<List<Category?>>> GetAllAsync(GetAllCategoriesRequest getAllCategoriesRequest);
+    Task<Response<List<Category>>> GetAllAsync(GetAllCategoriesRequest getAllCategoriesRequest);
 }

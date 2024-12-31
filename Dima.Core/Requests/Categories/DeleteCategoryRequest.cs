@@ -5,5 +5,5 @@ namespace Dima.Core.Requests.Categories;
 public class DeleteCategoryRequest : BaseRequest
 {
     [Required(ErrorMessage = "O ID e obrigatorio")]
-    public int Id { get; set; }
+    public long Id { get; set; }
 }
