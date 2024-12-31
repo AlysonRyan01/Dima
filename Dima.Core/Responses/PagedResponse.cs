@@ -5,7 +5,7 @@ namespace Dima.Core.Responses;
 public class PagedResponse<T> : Response<T>
 {
     [JsonConstructor]
-    public PagedResponse(T data, int totalCount, int pageSize = Configuration.DefaultPageSize, int currentPage = 1) : base(data)
+    public PagedResponse(T? data, int totalCount, int pageSize = Configuration.DefaultPageSize, int currentPage = 1) : base(data)
     {
         Data = data;
         TotalCount = totalCount;
@@ -13,7 +13,7 @@ public class PagedResponse<T> : Response<T>
         CurrentPage = currentPage;
     }
 
-    public PagedResponse(T data, int code = Configuration.DefaultStatusCode, string? message = null) : base(data, code, message)
+    public PagedResponse(T? data, int code = Configuration.DefaultStatusCode, string? message = null) : base(data, code, message)
     {
         
     }

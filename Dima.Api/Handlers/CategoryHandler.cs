@@ -102,7 +102,7 @@ public class CategoryHandler(AppDbContext context) : ICategoryHandler
         }
     }
 
-    public async Task<Response<List<Category>>> GetAllAsync(GetAllCategoriesRequest getAllCategoriesRequest)
+    public async Task<PagedResponse<List<Category>>> GetAllAsync(GetAllCategoriesRequest getAllCategoriesRequest)
     {
         try
         {
@@ -122,7 +122,7 @@ public class CategoryHandler(AppDbContext context) : ICategoryHandler
         }
         catch
         {
-            return new Response<List<Category>>(null, 500, "Falha ao obter as categorias!");
+            return new PagedResponse<List<Category>>(null, 500, "Falha ao obter as categorias!");
         }
     }
 }
