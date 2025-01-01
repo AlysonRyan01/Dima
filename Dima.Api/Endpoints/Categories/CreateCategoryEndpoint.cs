@@ -1,5 +1,7 @@
 ﻿using Dima.Api.Common.Api;
 using Dima.Core.Handlers;
+using Dima.Core.Models;
+using Dima.Core.Responses;
 
 namespace Dima.Api.Endpoints.Categories;
 
@@ -11,7 +13,8 @@ public class CreateCategoryEndpoint : IEndpoint
             .WithName("Categories: Create")
             .WithSummary("Cria uma nova categoria")
             .WithDescription("Cria uma nova categoria")
-            .WithOrder(1);
+            .WithOrder(1)
+            .Produces<Response<Category?>>();
     }
 
     private static async Task<IResult> HandleAsync(ICategoryHandler handler, CreateCategoryRequest request)
