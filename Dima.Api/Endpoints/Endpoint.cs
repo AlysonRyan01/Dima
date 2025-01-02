@@ -1,5 +1,4 @@
-﻿using Dima.Api.Common.Api;
-using Dima.Api.Endpoints.Categories;
+﻿using Dima.Api.Endpoints.Categories;
 
 namespace Dima.Api.Endpoints;
 

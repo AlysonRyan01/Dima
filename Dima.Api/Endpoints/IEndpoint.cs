@@ -1,4 +1,4 @@
-﻿namespace Dima.Api.Common.Api;
+﻿namespace Dima.Api.Endpoints;
 
 public interface IEndpoint
 {

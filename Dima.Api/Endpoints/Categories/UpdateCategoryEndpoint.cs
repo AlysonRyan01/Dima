@@ -1,5 +1,4 @@
-﻿using Dima.Api.Common.Api;
-using Dima.Core.Handlers;
+﻿using Dima.Core.Handlers;
 using Dima.Core.Models;
 using Dima.Core.Requests.Categories;
 using Dima.Core.Responses;
