@@ -1,4 +1,5 @@
 using Dima.Api.Data;
+using Dima.Core.Common.Extensions;
 using Dima.Core.Handlers;
 using Dima.Core.Models;
 using Dima.Core.Requests.Transactions;
@@ -15,6 +16,7 @@ public class TransactionHandler(AppDbContext context) : ITransactionHandler
         {
             var transaction = new Transaction
             {
+                UserId = request.UserId,
                 Title = request.Title,
                 Type = request.Type,
                 Amount = request.Amount,
@@ -127,6 +129,49 @@ public class TransactionHandler(AppDbContext context) : ITransactionHandler
         {
             return new Response<Transaction?>(null, 500, "Falha ao carregar a transacao!");
 
+        }
+    }
+    
+    public async Task<PagedResponse<List<Transaction>?>> GetByPeriod(GetTransactionsByPeriodRequest request)
+    {
+        try
+        {
+            request.StartDate ??= DateTime.Now.GetFirstDay();
+            request.EndDate ??= DateTime.Now.GetLastDay();
+        }
+        catch
+        {
+            return new PagedResponse<List<Transaction>?>(null, 500,
+                "Não foi possível determinar a data de início ou término");
+        }
+
+        try
+        {
+            var query = context
+                .Transactions
+                .AsNoTracking()
+                .Where(x =>
+                    x.PaidOrReceivedAt >= request.StartDate &&
+                    x.PaidOrReceivedAt <= request.EndDate &&
+                    x.UserId == request.UserId)
+                .OrderBy(x => x.PaidOrReceivedAt);
+
+            var transactions = await query
+                .Skip((request.PageNumber - 1) * request.PageSize)
+                .Take(request.PageSize)
+                .ToListAsync();
+
+            var count = await query.CountAsync();
+
+            return new PagedResponse<List<Transaction>?>(
+                transactions,
+                count,
+                request.PageNumber,
+                request.PageSize);
+        }
+        catch
+        {
+            return new PagedResponse<List<Transaction>?>(null, 500, "Não foi possível obter as transações");
         }
     }
 }

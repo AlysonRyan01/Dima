@@ -8,25 +8,32 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/alysonryanullirsch/.nuget/packages/": {}
+    "C:\\Users\\alyso\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Core/Dima.Core.csproj",
+      "projectUniqueName": "D:\\GitHubRepository\\Dima\\Dima.Core\\Dima.Core.csproj",
       "projectName": "Dima.Core",
-      "projectPath": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Core/Dima.Core.csproj",
-      "packagesPath": "/Users/alysonryanullirsch/.nuget/packages/",
-      "outputPath": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Core/obj/",
+      "projectPath": "D:\\GitHubRepository\\Dima\\Dima.Core\\Dima.Core.csproj",
+      "packagesPath": "C:\\Users\\alyso\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHubRepository\\Dima\\Dima.Core\\obj\\",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/alysonryanullirsch/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\alyso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -43,7 +50,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -65,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

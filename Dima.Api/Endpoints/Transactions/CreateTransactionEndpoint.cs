@@ -9,7 +9,7 @@ public class CreateTransactionEndpoint : IEndpoint
 {
     public static void Map(IEndpointRouteBuilder app)
     {
-        app.MapPost("/", HandlerAsync)
+        app.MapPost("/", HandleAsync)
             .WithName("Transaction: Create")
             .WithSummary("Cria uma nova transacao")
             .WithDescription("Cria uma nova transacao")
@@ -17,7 +17,7 @@ public class CreateTransactionEndpoint : IEndpoint
             .Produces<Response<Transaction?>>();
     }
     
-    private static async Task<IResult> HandlerAsync(
+    private static async Task<IResult> HandleAsync(
         ITransactionHandler handler,
         CreateTransactionRequest request)
     {
