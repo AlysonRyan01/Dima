@@ -17,12 +17,16 @@ public class UpdateCategoryEndpoint : IEndpoint
             .Produces<Response<Category?>>();
     }
 
-    private static async Task<IResult> HandleAsync(ICategoryHandler handler, UpdateCategoryRequest request)
+    private static async Task<IResult> HandleAsync(
+        ICategoryHandler handler, UpdateCategoryRequest request, long id)
     {
+        request.UserId = "alyson@gmail.com";
+        request.Id = id;
+        
         var result = await handler.UpdateAsync(request);
         
         return result.IsSuccess 
             ? Results.Ok(result) 
-            : Results.BadRequest();
+            : Results.BadRequest(result);
     }
 }

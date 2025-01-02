@@ -16,12 +16,16 @@ public class CreateCategoryEndpoint : IEndpoint
             .Produces<Response<Category?>>();
     }
 
-    private static async Task<IResult> HandleAsync(ICategoryHandler handler, CreateCategoryRequest request)
+    private static async Task<IResult> HandleAsync(
+        ICategoryHandler handler,
+        CreateCategoryRequest request)
     {
+        request.UserId = "alyson@gmail.com";
+        
         var result = await handler.CreateAsync(request);
 
         return result.IsSuccess
-            ? TypedResults.Created($"/{result.Data?.Id}", result.Data)
+            ? TypedResults.Created($"/{result.Data?.Id}", result)
             : TypedResults.BadRequest();
     }
 }
