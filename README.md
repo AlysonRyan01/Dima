@@ -9,6 +9,7 @@
     <br>
     c. dotnet sln add ./Dima.Core/ // Para adicionar o Dima.Core ao sln da aplicacão.
     <br>
+    <br>
 
 <strong>2- Criando a pasta Models no Dima.Core:</strong>
     <br>
@@ -16,10 +17,12 @@
     <br>
     b. Transaction
     <br>
+    <br>
 
 <strong>3- Criando uma pasta de Emums no Dima.Core:</strong>
     <br>
     a. Adicionando a classe ETransactionType para armazenar os valores Withdraw e Deposit.
+    <br>
     <br>
 
 <strong>4- Criando o Dima.Api:</strong>
@@ -75,6 +78,7 @@
     <br>
     u. Agora so falta aplicar as migracoes com dotnet ef migration add v1, e dotnet ef database update.
     <br>
+    <br>
 
 <strong>5- Padronizando as requests e as responses no Dima.Core:</strong>
     <br>
@@ -90,9 +94,28 @@
     <br>
     f. Criamos uma pasta Handlers para definir os contratos com interfaces dos modelos, como ICategoryHandler.
     <br>
+    <br>
 
 <strong>6- Criando os handlers no Dima.Api utilizando os contratos das interfaces do Core:</strong>
     <br>
-    a. Criamos o CateogoryHandler que herda de ICategoryHandler para cumprir todos os contratos.
+    a. Criamos o CateogoryHandler que herda de ICategoryHandler para cumprir todos os contratos, fazemos isso para todos os modelos, como TransactionHandler, etc.
     <br>
-    b. 
+    <br>
+
+<strong>7- Criando as endpoints utilizando os handlers:</strong>
+    <br>
+    a. Criamos uma pasta chamada Endpoints. // Essa pasta vai armazenar todas as configuracoes das endpoints.
+    <br>
+    b. Criamos uma interface IEndpoint, essa interface vai conter um metodo void estatico abstrato chamado Map, que precisa como parametro um app do tipo IEndpointRouteBuilder. // Esse IEndpointRouteBuilder que vai permitir mapear as rotas como app.MapGet(), app.MapPost(), app.MapPut() e app.MapDelete().
+    <br>
+    c. Criamos uma classe estatica chamada Endpoint, essa classe vai conter a funcao void estatica MapEndpoints. Essa funcao vai ser uma extensao de WebApplication (this WebApplication app). Apos criar a classe precisamos adicionar app.MapEndpoints() no Program.cs. // Essa funcao vai ser a responsável por mapear os grupos de endpoints.
+    <br>
+    d. Para cada modelo que precisa de Endpoints, criamos uma pasta, como Categories e Transactions.
+    <br>
+    e. Dentro de cada pasta de algum modelo específico, criamos os Endpoints para mapear as rotas utilizando algum Handler, como CreateCategoryEndpoint, DeleteCategoryEndpoint, etc.
+    <br>
+    f. Essas classes herdam da interface IEndpoint, entao obviamente precisamos adicionar a funcao Map(IendpointRouteBuilder app). Dentro dessa funcao fazemos o mapeamento, como app.MapPost("/", HandlerAsync).
+    <br>
+    g. O HandleAsync também é criado dentro dessa funcao, ele é uma funcao estatica async que retorna uma Task<IResult> e possui 2 parametros, a interface de algum handler e um request.
+
+
