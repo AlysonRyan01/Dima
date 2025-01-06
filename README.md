@@ -117,5 +117,29 @@
     f. Essas classes herdam da interface IEndpoint, entao obviamente precisamos adicionar a funcao Map(IendpointRouteBuilder app). Dentro dessa funcao fazemos o mapeamento, como app.MapPost("/", HandlerAsync).
     <br>
     g. O HandleAsync também é criado dentro dessa funcao, ele é uma funcao estatica async que retorna uma Task<IResult> e possui 2 parametros, a interface de algum handler e um request.
+    <br>
+    <br>
+
+<strong>7- Adicionando autenticacao via cookies (Identity):</strong>
+    <br>
+    a. Adicionamos o pacote do identity (Microsoft.AspNetCore.Identity.EntityFrameworkCore);
+    <br>
+    b. Adicionando a autenticacao no Program.cs: builder.Services.AddAuthentication(IdentityConstants.ApplicationScheme)
+    .AddIdentityCookies();
+    builder.Services.AddAuthorization();
+    <br>
+    c. Precisamos configurar o banco de dados para receber o cookie: public class AppDbContext(DbContextOptions<AppDbContext> options) : IdentityDbContext(options). Só com isso ele já funcionaria no banco de dados, mas vamos fazer mais algumas configuracoes adicionais.
+    <br>
+    d. Criamos uma pasta Models na raiz de Dima.Api para armazenar informacoes sobre as roles de um User, entao criamos uma classe User dentro da pasta Models. Essa classe herda de IdentityUser<"TipoDoId">, e dentro dessa classe temos a public List<IdentityRole<long>>? Roles { get; set; };
+    <br>
+    e. Depois disso precisamos fazer mais algumas configuracoes no AppDbContext: public class AppDbContext(DbContextOptions<AppDbContext> options) 
+    : IdentityDbContext<User,
+        IdentityRole<long>, long, IdentityUserClaim<long>,
+        IdentityUserRole<long>, IdentityUserLogin<long>,
+        IdentityRoleClaim<long>, IdentityUserToken<long>>(options)
+    <br>
+    f. Mapeando o IdentityUser.
+
+
 
 

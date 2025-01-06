@@ -5328,40 +5328,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alyso\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/alysonryanullirsch/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHubRepository\\Dima\\Dima.Api\\Dima.Api.csproj",
+      "projectUniqueName": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Api/Dima.Api.csproj",
       "projectName": "Dima.Api",
-      "projectPath": "D:\\GitHubRepository\\Dima\\Dima.Api\\Dima.Api.csproj",
-      "packagesPath": "C:\\Users\\alyso\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHubRepository\\Dima\\Dima.Api\\obj\\",
+      "projectPath": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Api/Dima.Api.csproj",
+      "packagesPath": "/Users/alysonryanullirsch/.nuget/packages/",
+      "outputPath": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Api/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\alyso\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/alysonryanullirsch/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\GitHubRepository\\Dima\\Dima.Core\\Dima.Core.csproj": {
-              "projectPath": "D:\\GitHubRepository\\Dima\\Dima.Core\\Dima.Core.csproj"
+            "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Core/Dima.Core.csproj": {
+              "projectPath": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Core/Dima.Core.csproj"
             }
           }
         }
@@ -5374,7 +5367,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       }
     },
     "frameworks": {
@@ -5423,7 +5416,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
