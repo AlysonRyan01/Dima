@@ -26,7 +26,6 @@ public static class Endpoint
             .MapEndpoint<UpdateTransactionEndpoint>()
             .MapEndpoint<DeleteTransactionEndpoint>()
             .MapEndpoint<GetTransactionByIdEndpoint>()
-            .MapEndpoint<GetAllTransactionsEndpoint>()
             .MapEndpoint<GetTransactionsByPeriodEndpoint>();
 
     }

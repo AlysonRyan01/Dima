@@ -46,6 +46,7 @@ D:\GitHubRepository\Dima\Dima.Api\bin\Debug\net9.0\Dima.Api.pdb
 D:\GitHubRepository\Dima\Dima.Api\bin\Debug\net9.0\Azure.Core.dll
 D:\GitHubRepository\Dima\Dima.Api\bin\Debug\net9.0\Azure.Identity.dll
 D:\GitHubRepository\Dima\Dima.Api\bin\Debug\net9.0\Humanizer.dll
+D:\GitHubRepository\Dima\Dima.Api\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\GitHubRepository\Dima\Dima.Api\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 D:\GitHubRepository\Dima\Dima.Api\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\GitHubRepository\Dima\Dima.Api\bin\Debug\net9.0\Microsoft.Build.Locator.dll

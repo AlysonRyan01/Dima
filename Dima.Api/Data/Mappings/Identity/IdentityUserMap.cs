@@ -1,12 +1,13 @@
+using Dima.Api.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Dima.Api.Data.Mappings;
+namespace Dima.Api.Data.Mappings.Identity;
 
-public class IdentityUserMap : IEntityTypeConfiguration<IdentityUser>
+public class IdentityUserMap : IEntityTypeConfiguration<User>
 {
-    public void Configure(EntityTypeBuilder<IdentityUser> builder)
+    public void Configure(EntityTypeBuilder<User> builder)
     {
         builder.ToTable("IdentityUser");
         builder.HasKey(u => u.Id);
