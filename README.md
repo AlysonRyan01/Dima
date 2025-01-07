@@ -138,7 +138,28 @@
         IdentityUserRole<long>, IdentityUserLogin<long>,
         IdentityRoleClaim<long>, IdentityUserToken<long>>(options)
     <br>
-    f. Mapeando o IdentityUser.
+    f. Dentro de Mappings, vamos criar uma pasta chamada Identity. Essa pasta vai conter os mapeamentos do Identity.
+    <br>
+    g. Mapeando o IdentityUser.
+    <br>
+    h. Mapeando o IdentityUserClaimMap.
+    <br>
+    i. Mapeando o IdentityUserLoginMap.
+    <br>
+    j. Mapeando o IdentityUserTokenMap.
+    <br>
+    k. Mapeando o IdentityRoleClaimMap.
+    <br>
+    l. Mapeando o IdentityUserRoleMap.
+    <br>
+    m. Precisamos configurar o servico do AddIdentityCore: builder.Services.AddIdentityCore<User>()
+    .AddRoles<IdentityRole<long>>()
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddApiEndpoints();
+    <br>
+    n. Para finalizar: app.UseAuthentication();
+    app.UseAuthorization();
+    <br> dotnet ef migrations add v2.
 
 
 
