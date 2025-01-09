@@ -1,4 +1,5 @@
-﻿using Dima.Core.Handlers;
+﻿using System.Security.Claims;
+using Dima.Core.Handlers;
 using Dima.Core.Models;
 using Dima.Core.Requests.Transactions;
 using Dima.Core.Responses;
@@ -20,12 +21,13 @@ public class UpdateTransactionEndpoint : IEndpoint
 
     private static async Task<IResult> HandleAsync(
         UpdateTransactionRequest request,
+        ClaimsPrincipal user,
         ITransactionHandler handler,
         [FromQuery] long id)
 
     {
         request.Id = id;
-        request.UserId = "alyson@gmail.com";
+        request.UserId = user.Identity?.Name ?? string.Empty;
 
         var result = await handler.UpdateAsync(request);
 

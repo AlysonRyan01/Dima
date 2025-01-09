@@ -1,4 +1,5 @@
-﻿using Dima.Core.Models;
+﻿using System.Security.Claims;
+using Dima.Core.Models;
 using Dima.Core.Responses;
 using Dima.Core.Handlers;
 using Dima.Core.Requests.Transactions;
@@ -20,11 +21,12 @@ public class GetTransactionByIdEndpoint : IEndpoint
 
     public static async Task<IResult> HandleAsync(
         ITransactionHandler handler,
+        ClaimsPrincipal user,
         [FromQuery] long id)
     {
         var request = new GetTransactionByIdRequest
         {
-            UserId = "alyson@gmail.com",
+            UserId = user.Identity?.Name ?? string.Empty,
             Id = id
         };
 

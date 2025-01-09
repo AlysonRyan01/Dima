@@ -1,4 +1,5 @@
-﻿using Dima.Core;
+﻿using System.Security.Claims;
+using Dima.Core;
 using Dima.Core.Handlers;
 using Dima.Core.Models;
 using Dima.Core.Requests.Categories;
@@ -22,12 +23,13 @@ public class GetTransactionsByPeriodEndpoint : IEndpoint
 
     private static async Task<IResult> HandleAsync(
         ITransactionHandler handler,
+        ClaimsPrincipal user,
         [FromQuery]int pageNumber = Configuration.DefaultPageNumber,
         [FromQuery]int pageSize = Configuration.DefaultPageSize)
     {
         var request = new GetAllTransactionRequest()
         {
-            UserId = "alyson@gmail.com",
+            UserId = user.Identity?.Name ?? string.Empty,
             PageNumber = pageNumber,
             PageSize = pageSize
         };

@@ -1,4 +1,5 @@
-﻿using Dima.Core.Handlers;
+﻿using System.Security.Claims;
+using Dima.Core.Handlers;
 using Dima.Core.Models;
 using Dima.Core.Responses;
 
@@ -17,10 +18,11 @@ public class CreateCategoryEndpoint : IEndpoint
     }
 
     private static async Task<IResult> HandleAsync(
+        ClaimsPrincipal user,
         ICategoryHandler handler,
         CreateCategoryRequest request)
     {
-        request.UserId = "alyson@gmail.com";
+        request.UserId = user.Identity?.Name ?? string.Empty;
         
         var result = await handler.CreateAsync(request);
 
