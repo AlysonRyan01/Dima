@@ -7,9 +7,7 @@ public class GetRolesEndpoint : IEndpoint
 {
     public static void Map(IEndpointRouteBuilder app)
     {
-        app.MapGroup("v1/identity")
-            .WithTags("Identity")
-            .MapGet("/roles", Handle)
+        app.MapGet("v1/roles", Handle)
             .RequireAuthorization();
     }
 

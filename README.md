@@ -120,7 +120,7 @@
     <br>
     <br>
 
-<strong>7- Adicionando autenticacao via cookies (Identity):</strong>
+<strong>7- Adicionando Identity com cookie:</strong>
     <br>
     a. Adicionamos o pacote do identity (Microsoft.AspNetCore.Identity.EntityFrameworkCore);
     <br>
@@ -159,8 +159,22 @@
     <br>
     n. Para finalizar: app.UseAuthentication();
     app.UseAuthorization();
-    <br> dotnet ef migrations add v2.
+    <br> 
+    o. dotnet ef migrations add v2.
+    <br>
+    p. Como o Identity não tem um endpoint de Logout, precisamos criar um. Também precisamos criar um endpoint para recuperar as roles do usuário logado no cookie.
+    <br>
+    q. Para finalizar precisamos adicionar as configuracoes do CORS.
+    <br>
+    <br>
 
+<strong>8- Utilizando o Identity no frontend com blazor wasm:</strong>
+    <br>
+    a. No Dima.Core, dentro da pasta Models vamos criar uma nova pasta chamada Identity, que vai conter as classes de informação do usuário.
+    <br>
+    b. Dentro da pasta Identity vamos criar a classe RoleClaim, que vai conter as informacoes da Claim.
+    <br>
+    c. Dentro da pasta Identity vamos criar a classe User, que vai reter as informações do usuário.
 
 
 
