@@ -175,6 +175,28 @@
     b. Dentro da pasta Identity vamos criar a classe RoleClaim, que vai conter as informacoes da Claim.
     <br>
     c. Dentro da pasta Identity vamos criar a classe User, que vai reter as informações do usuário.
+    <br>
+    d. Dentro da pasta Requests, criamos uma pasta chamada Identity, que vai conter os requests de login e register.
+    <br>
+    e. Dentro da pasta Handlers, vamos criar a interface IIdentityHandler.
+    <br>
+    f. No Dima.Web, vamos precisar instalar um pacote: dotnet add package Microsoft.Extensions.Http.
+    <br>
+    g. No Program.cs vamos precisar adicionar o builder.Services.AddHttpClient() e configurar ele.
+    <br>
+    h. Na raiz de Dima.Web, vamos criar a pasta Handlers.
+    <br>
+    i. Na pasta Handlers vamos criar a classe IdentityHandler que vai herdar de IIdentityHandler.
+    <br>
+    j. Precisamos adicionar o pacote Microsoft.AspNetCore.Components.WebAssembly.Authentication.
+    <br>
+    k. Na raiz do Dima.Web vamos criar a pasta Security.
+    <br>
+    l. Dentro da pasta Security vamos criar a interface ICookieAuthenticationStateProvider
+    <br>
+    m. Dentro da pasta Security vamos criar a classe CookieAuthenticationStateProvider que vai herdar de AuthenticationStateProvider e de ICookieAuthenticationStateProvider.
+    <br>
+    n. 
 
 
 

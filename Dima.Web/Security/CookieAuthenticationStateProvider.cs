@@ -5,10 +5,13 @@ namespace Dima.Web.Security;
 public class CookieAuthenticationStateProvider(IHttpClientFactory clientFactory) : AuthenticationStateProvider, ICookieAuthenticationStateProvider
 {
     private readonly HttpClient _httpClient = clientFactory.CreateClient(Configuration.HttpClientName);
+
+    private bool IsAuthenticated = false;
     
-    public Task<bool> CheckAuthenticatedAsync()
+    public async Task<bool> CheckAuthenticatedAsync()
     {
-        throw new NotImplementedException();
+        await GetAuthenticationStateAsync();
+        return IsAuthenticated;
     }
 
     public override Task<AuthenticationState> GetAuthenticationStateAsync()
@@ -18,6 +21,6 @@ public class CookieAuthenticationStateProvider(IHttpClientFactory clientFactory)
 
     public void NotifyAuthenticationStateChanged()
     {
-        throw new NotImplementedException();
+        NotifyAuthenticationStateChanged(GetAuthenticationStateAsync());
     }
 }
