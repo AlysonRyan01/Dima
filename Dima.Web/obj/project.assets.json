@@ -586,7 +586,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.1": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -1214,7 +1214,7 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.1": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -2279,10 +2279,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.0": {
-      "sha512": "Ch6dilt/TAo3XryG/9LF8Zy4rAT+2HYnks8thWAeNzPNOJs4aSyC6E5yxuBiN49d2eES78h1mSR/KNyOfbptXQ==",
+    "Microsoft.NET.Sdk.WebAssembly.Pack/9.0.1": {
+      "sha512": "/+0fpalaBrtXNnoso2oIMi3W30+bDWe8lrXkRj6qKMKsTpDfJboxuVn+E9XDpuk2zTBqjd6ZDStD6F9KYMj7cQ==",
       "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/9.0.0",
+      "path": "microsoft.net.sdk.webassembly.pack/9.0.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -2313,7 +2313,7 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
         "build/browser.runtimeconfig.template.json",
-        "microsoft.net.sdk.webassembly.pack.9.0.0.nupkg.sha512",
+        "microsoft.net.sdk.webassembly.pack.9.0.1.nupkg.sha512",
         "microsoft.net.sdk.webassembly.pack.nuspec",
         "tools/net472/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
         "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll",
@@ -2361,45 +2361,39 @@
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 9.0.0",
       "Microsoft.Extensions.Http >= 9.0.0",
       "Microsoft.NET.ILLink.Tasks >= 9.0.0",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.0",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.1",
       "mudblazor >= 7.15.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alyso\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/alysonryanullirsch/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHubRepository\\Dima\\Dima.Web\\Dima.Web.csproj",
+      "projectUniqueName": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Dima.Web.csproj",
       "projectName": "Dima.Web",
-      "projectPath": "D:\\GitHubRepository\\Dima\\Dima.Web\\Dima.Web.csproj",
-      "packagesPath": "C:\\Users\\alyso\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHubRepository\\Dima\\Dima.Web\\obj\\",
+      "projectPath": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Dima.Web.csproj",
+      "packagesPath": "/Users/alysonryanullirsch/.nuget/packages/",
+      "outputPath": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\alyso\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/alysonryanullirsch/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\GitHubRepository\\Dima\\Dima.Core\\Dima.Core.csproj": {
-              "projectPath": "D:\\GitHubRepository\\Dima\\Dima.Core\\Dima.Core.csproj"
+            "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Core/Dima.Core.csproj": {
+              "projectPath": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Core/Dima.Core.csproj"
             }
           }
         }
@@ -2412,7 +2406,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       }
     },
     "frameworks": {
@@ -2445,7 +2439,7 @@
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.0, )",
+            "version": "[9.0.1, )",
             "autoReferenced": true
           },
           "mudblazor": {
@@ -2466,8 +2460,8 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[9.0.0, 9.0.0]"
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.1, 9.0.1]"
           }
         ],
         "frameworkReferences": {
@@ -2475,7 +2469,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
