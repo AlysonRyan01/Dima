@@ -6,7 +6,7 @@ public static class Configuration
 {
     public const string HttpClientName = "dima";
 
-    public static string BackendUrl { get; set; }
+    public static string BackendUrl { get; set; } = "http://localhost:5005";
     
     public static MudTheme Theme = new()
     {
