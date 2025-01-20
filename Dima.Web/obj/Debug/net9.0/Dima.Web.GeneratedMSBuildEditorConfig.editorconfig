@@ -16,57 +16,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Dima.Web
 build_property.RootNamespace = Dima.Web
-build_property.ProjectDir = /Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/
+build_property.ProjectDir = D:\GitHubRepository\Dima\Dima.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web
+build_property.MSBuildProjectDirectory = D:\GitHubRepository\Dima\Dima.Web
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/App.razor]
+[D:/GitHubRepository/Dima/Dima.Web/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Components/Identity/LoginRedirect.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9JZGVudGl0eS9Mb2dpblJlZGlyZWN0LnJhem9y
+[D:/GitHubRepository/Dima/Dima.Web/Components/Identity/LoginRedirect.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJZGVudGl0eVxMb2dpblJlZGlyZWN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Components/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OYXZNZW51LnJhem9y
+[D:/GitHubRepository/Dima/Dima.Web/Components/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOYXZNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Layout/HeadlessLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L0hlYWRsZXNzTGF5b3V0LnJhem9y
+[D:/GitHubRepository/Dima/Dima.Web/Layout/HeadlessLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEhlYWRsZXNzTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+[D:/GitHubRepository/Dima/Dima.Web/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Pages/Categories/Create.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllcy9DcmVhdGUucmF6b3I=
+[D:/GitHubRepository/Dima/Dima.Web/Pages/Categories/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xDcmVhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+[D:/GitHubRepository/Dima/Dima.Web/Pages/Categories/List.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Pages/Identity/Login.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSWRlbnRpdHkvTG9naW4ucmF6b3I=
+[D:/GitHubRepository/Dima/Dima.Web/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Pages/Identity/Logout.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSWRlbnRpdHkvTG9nb3V0LnJhem9y
+[D:/GitHubRepository/Dima/Dima.Web/Pages/Identity/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Pages/Identity/Register.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSWRlbnRpdHkvUmVnaXN0ZXIucmF6b3I=
+[D:/GitHubRepository/Dima/Dima.Web/Pages/Identity/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcTG9nb3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/_Imports.razor]
+[D:/GitHubRepository/Dima/Dima.Web/Pages/Identity/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWRlbnRpdHlcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHubRepository/Dima/Dima.Web/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

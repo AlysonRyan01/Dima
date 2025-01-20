@@ -7,7 +7,7 @@ public class LogoutEndpoint : IEndpoint
 {
     public static void Map(IEndpointRouteBuilder app)
     {
-        app.MapPost("v1/logout", HandleAsync)
+        app.MapPost("/logout", HandleAsync)
             .RequireAuthorization();
     }
 

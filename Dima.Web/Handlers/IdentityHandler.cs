@@ -23,12 +23,12 @@ public class IdentityHandler(IHttpClientFactory httpClientFactory) : IIdentityHa
         var result = await _httpClient.PostAsJsonAsync("v1/Identity/register", request);
         return result.IsSuccessStatusCode 
             ? new Response<string>("Cadastro realizado com sucesso!", 200, "Cadastro realizado com sucesso!") 
-            : new Response<string>("null", 400, "Não foi possivel criar o registro");
+            : new Response<string>("null", 400, "A senha precisa conter pelo menos um caractere especial e pelo menos uma letra maiuscula");
     }
 
     public async Task LogoutAsync()
     {
         var emptyContent = new StringContent("{}", Encoding.UTF8, "application/json");
-        await _httpClient.PostAsync("v1/Identity/logout", emptyContent);
+        await _httpClient.PostAsJsonAsync("v1/Identity/logout", emptyContent);
     }
 }

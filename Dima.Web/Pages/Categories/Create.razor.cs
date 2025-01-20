@@ -11,6 +11,7 @@ public partial class CreateCategoryPage : ComponentBase
 
     public bool IsBusy { get; set; } = false;
     public CreateCategoryRequest Request { get; set; } = new();
+    
     #endregion
     
     #region Services
@@ -21,6 +22,7 @@ public partial class CreateCategoryPage : ComponentBase
     [Inject]
     public NavigationManager NavigationManager { get; set; } = null!;
 
+    [Inject]
     public ISnackbar Snackbar { get; set; } = null!;
 
     #endregion
@@ -50,5 +52,6 @@ public partial class CreateCategoryPage : ComponentBase
             IsBusy = false;
         }
     }
+    
     #endregion
 }
