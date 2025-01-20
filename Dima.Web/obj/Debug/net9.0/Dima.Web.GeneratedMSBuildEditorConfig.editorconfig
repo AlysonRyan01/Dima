@@ -31,6 +31,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Components/Identity/LoginRedirect.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9JZGVudGl0eS9Mb2dpblJlZGlyZWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Layout/HeadlessLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L0hlYWRsZXNzTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -45,6 +49,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Pages/Identity/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSWRlbnRpdHkvTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Pages/Identity/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSWRlbnRpdHkvTG9nb3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/Pages/Identity/Register.razor]

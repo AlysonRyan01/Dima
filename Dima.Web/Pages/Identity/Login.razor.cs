@@ -2,7 +2,6 @@ using Dima.Core.Handlers;
 using Dima.Core.Requests.Identity;
 using Dima.Web.Security;
 using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Authorization;
 using MudBlazor;
 
 namespace Dima.Web.Pages.Identity;
@@ -48,13 +47,12 @@ public partial class LoginPage : ComponentBase
 
             if (result.IsSuccess)
             {
-                SnackBar.Add(result.Message ?? "Login realizado com sucesso!", Severity.Success);
+                await AuthenticationStateProvider.GetAuthenticationStateAsync();
+                AuthenticationStateProvider.NotifyAuthenticationStateChanged();
                 NavigationManager.NavigateTo("/");
             }
             else
-            {
                 SnackBar.Add(result.Message ?? "Falha na tentativa de login", Severity.Error);
-            }
         }
         catch (Exception e)
         {
