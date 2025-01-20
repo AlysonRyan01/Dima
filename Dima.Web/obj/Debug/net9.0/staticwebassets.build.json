@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SjyOD3BvZLBZlcgfxDwhnRSHg9OB1Su0MuVnInBqfgM=",
+  "Hash": "1IBiuMP9RlAMILPbgI/aADuMAw2skuaV6YXQXtio/RI=",
   "Source": "Dima.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "f8nqh35r96",
-      "Integrity": "4VoMe02aQzvrHqehhdqPMiEmJtGElCw/aOU31zNSoDA=",
+      "Fingerprint": "a5tnss90fb",
+      "Integrity": "svBULCA/ZSPkSDEn1ywBgeEMVRYscPIcafJAoZXMkTs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "tl6a63zx2t",
-      "Integrity": "8WHsAF+yyMNiJswIXyFIWVN4XnejJQMPRk8RoI0vAes=",
+      "Fingerprint": "ne8vwb2l7n",
+      "Integrity": "sTekfLfMQuHHiS5KZmOdWaqxCt7I+6msVV4JVq8/Bfc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Core/bin/Debug/net9.0/Dima.Core.pdb"
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "wprzx5pzfb",
-      "Integrity": "7EONiwGMwvykoFBmJhVYRc+4RGYNxWL51I0moYcIWkc=",
+      "Fingerprint": "3000o0yun2",
+      "Integrity": "A7jBEbGc3aoE8Xgzt8+7MjJDC+zv3dAU05wO1b4DKTo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/webcil/Dima.Core.wasm"
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "gnjer9dfxd",
-      "Integrity": "BFYD0KxKxXv5+vhzMIefqgKiBtR26k7GryPYQ9Xyg2Q=",
+      "Fingerprint": "aqjwmioyi0",
+      "Integrity": "4okas8ZUYyQhwA1xeXEvhfEkgGD/73y2bia0K/cxAsk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/Dima.Web.pdb"
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "in3b19lrvt",
-      "Integrity": "PlwxN1jbEIgDGqGg1rcE5CUwZFqp2Dij0yYvVtWs3yw=",
+      "Fingerprint": "cukifsqv6y",
+      "Integrity": "/AbZ0yUC+8Kspyu5eOrJmr0eTppkAnMiR492OTMc954=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/webcil/Dima.Web.wasm"
@@ -4826,7 +4826,7 @@
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/System.Runtime.Intrinsics.wasm"
     },
     {
-      "Identity": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/1yfefky1x0-0skkrug2bx.gz",
+      "Identity": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/1yfefky1x0-uauywtezxb.gz",
       "SourceId": "Dima.Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/",
@@ -4840,8 +4840,8 @@
       "RelatedAsset": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/service-worker/service-worker-assets.js.build",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wrh86a1ax0",
-      "Integrity": "/Mko6yQVL2IX7FUJXtc/9GLoKo2fJFrNF/jYCiXDArw=",
+      "Fingerprint": "ay4hkz7cyt",
+      "Integrity": "rly0jWtDRdjH+0F84I6js9QlnNWLB37XXg5pA+kYw44=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/service-worker/service-worker-assets.js.build"
@@ -5309,12 +5309,12 @@
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.wasm"
     },
     {
-      "Identity": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/6rm4iddht2-gnjer9dfxd.gz",
+      "Identity": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/6rm4iddht2-aqjwmioyi0.gz",
       "SourceId": "Dima.Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Dima.Web#[.{fingerprint=gnjer9dfxd}]!.pdb.gz",
+      "RelativePath": "_framework/Dima.Web#[.{fingerprint=aqjwmioyi0}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5323,8 +5323,8 @@
       "RelatedAsset": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Web.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jw8vw44epx",
-      "Integrity": "LVGa7WlPkDukLDwzO8BYvtZM/soktmYMwNN6+g0pJiA=",
+      "Fingerprint": "y5ssjyj1cr",
+      "Integrity": "alfm5juFkVjRiYKGyLTOBDtAgUBMw6LrSz9kK7SX7kc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Web.pdb"
@@ -5393,7 +5393,7 @@
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.dat"
     },
     {
-      "Identity": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/70vn0rd6h7-6bm7gu83io.gz",
+      "Identity": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/70vn0rd6h7-817fdc1zgm.gz",
       "SourceId": "Dima.Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/",
@@ -5498,12 +5498,12 @@
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/System.Threading.Channels.wasm"
     },
     {
-      "Identity": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/7ot3rpcauk-tl6a63zx2t.gz",
+      "Identity": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/7ot3rpcauk-ne8vwb2l7n.gz",
       "SourceId": "Dima.Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Dima.Core#[.{fingerprint=tl6a63zx2t}]!.pdb.gz",
+      "RelativePath": "_framework/Dima.Core#[.{fingerprint=ne8vwb2l7n}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5512,8 +5512,8 @@
       "RelatedAsset": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Core.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "74fl7gcf71",
-      "Integrity": "x2ZywKWrbrAm6xLg9P905Rm6ViJv6LqKKyX6X+cFqsE=",
+      "Fingerprint": "jlms9n11p8",
+      "Integrity": "ZxbW9GM8x7AnfAyijQ+1twju4IFtlDxn1oikQuygZSQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Core.pdb"
@@ -6317,12 +6317,12 @@
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/System.Runtime.Serialization.Primitives.wasm"
     },
     {
-      "Identity": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/ewuwfwjju7-wprzx5pzfb.gz",
+      "Identity": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/ewuwfwjju7-3000o0yun2.gz",
       "SourceId": "Dima.Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Dima.Core#[.{fingerprint=wprzx5pzfb}]!.wasm.gz",
+      "RelativePath": "_framework/Dima.Core#[.{fingerprint=3000o0yun2}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6331,8 +6331,8 @@
       "RelatedAsset": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Core.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "81cpkdiz3s",
-      "Integrity": "LNEx7Kdb6aBJzkoHHoVHK9eUcwNeP6N1hpOSR8j7y3c=",
+      "Fingerprint": "8f0saj4w14",
+      "Integrity": "JKezc3jkzrE93yUJleEf3xN485M6YG7dGBvUuTQ19QU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Core.wasm"
@@ -7451,7 +7451,7 @@
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/System.Diagnostics.Contracts.wasm"
     },
     {
-      "Identity": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/mvidceechf-f8nqh35r96.gz",
+      "Identity": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/mvidceechf-a5tnss90fb.gz",
       "SourceId": "Dima.Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/",
@@ -7465,8 +7465,8 @@
       "RelatedAsset": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "8kk5skygxz",
-      "Integrity": "WIOHHH4R4cVs2kJXUZSJkPR352Ft0bZzEC7rHBJwj+o=",
+      "Fingerprint": "vl89tgcfo0",
+      "Integrity": "LW/Fg9SlZunusRlSjlUbCHSFtnGl5WAjC7A/dIkpSNE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -8942,12 +8942,12 @@
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/System.Xml.XDocument.wasm"
     },
     {
-      "Identity": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/xujp3esvxf-in3b19lrvt.gz",
+      "Identity": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/xujp3esvxf-cukifsqv6y.gz",
       "SourceId": "Dima.Web",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/Dima.Web#[.{fingerprint=in3b19lrvt}]!.wasm.gz",
+      "RelativePath": "_framework/Dima.Web#[.{fingerprint=cukifsqv6y}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8956,8 +8956,8 @@
       "RelatedAsset": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Web.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "o9dlrda3ou",
-      "Integrity": "lBrhB2UqUQO1Yb5LIQR7duakTkPRGzf6nSk1Z8Sw4lg=",
+      "Fingerprint": "xkfdnc7pss",
+      "Integrity": "IWfQDZJnHh0c7mFWedX6l3L0g7O2YYz6H6y2UQiYfIw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Web.wasm"
@@ -9313,8 +9313,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerManifest",
-      "Fingerprint": "0skkrug2bx",
-      "Integrity": "MFkOHIw3Zh5hYyc9oLGvXWEt92ne907QNJUFWCxyYNM=",
+      "Fingerprint": "uauywtezxb",
+      "Integrity": "Gt4L1CWz6tqSkpWT/U73G/dbTiYrlgLeG9i8pjP8eqE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/service-worker/service-worker-assets.js.build"
@@ -9334,8 +9334,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "BlazorServiceWorker",
       "AssetTraitValue": "ServiceWorkerJs",
-      "Fingerprint": "6bm7gu83io",
-      "Integrity": "svTjpeBuYhFInDd+qiKWw4bblQWZt6et5Ud+QnqyRiM=",
+      "Fingerprint": "817fdc1zgm",
+      "Integrity": "XH4RzQCmnMFz2Vk0FNiWtQ1XfFpmFJ7bSItfF5epcrc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot/service-worker.js"
@@ -9961,11 +9961,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4VoMe02aQzvrHqehhdqPMiEmJtGElCw/aOU31zNSoDA=\""
+          "Value": "\"svBULCA/ZSPkSDEn1ywBgeEMVRYscPIcafJAoZXMkTs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9975,18 +9975,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4VoMe02aQzvrHqehhdqPMiEmJtGElCw/aOU31zNSoDA="
+          "Value": "sha256-svBULCA/ZSPkSDEn1ywBgeEMVRYscPIcafJAoZXMkTs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/mvidceechf-f8nqh35r96.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/mvidceechf-a5tnss90fb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000077112893"
+          "Quality": "0.000077106947"
         }
       ],
       "ResponseHeaders": [
@@ -9996,15 +9996,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12967"
+          "Value": "12968"
         },
         {
           "Name": "ETag",
-          "Value": "\"WIOHHH4R4cVs2kJXUZSJkPR352Ft0bZzEC7rHBJwj+o=\""
+          "Value": "\"LW/Fg9SlZunusRlSjlUbCHSFtnGl5WAjC7A/dIkpSNE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 19:48:56 GMT"
+          "Value": "Mon, 20 Jan 2025 20:10:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10024,19 +10024,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"4VoMe02aQzvrHqehhdqPMiEmJtGElCw/aOU31zNSoDA=\""
+          "Value": "W/\"svBULCA/ZSPkSDEn1ywBgeEMVRYscPIcafJAoZXMkTs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4VoMe02aQzvrHqehhdqPMiEmJtGElCw/aOU31zNSoDA="
+          "Value": "sha256-svBULCA/ZSPkSDEn1ywBgeEMVRYscPIcafJAoZXMkTs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/mvidceechf-f8nqh35r96.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/mvidceechf-a5tnss90fb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10045,7 +10045,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12967"
+          "Value": "12968"
         },
         {
           "Name": "Content-Type",
@@ -10053,11 +10053,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WIOHHH4R4cVs2kJXUZSJkPR352Ft0bZzEC7rHBJwj+o=\""
+          "Value": "\"LW/Fg9SlZunusRlSjlUbCHSFtnGl5WAjC7A/dIkpSNE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 19:48:56 GMT"
+          "Value": "Mon, 20 Jan 2025 20:10:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10075,7 +10075,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WIOHHH4R4cVs2kJXUZSJkPR352Ft0bZzEC7rHBJwj+o="
+          "Value": "sha256-LW/Fg9SlZunusRlSjlUbCHSFtnGl5WAjC7A/dIkpSNE="
         }
       ]
     },
@@ -10217,305 +10217,7 @@
       ]
     },
     {
-      "Route": "_framework/Dima.Core.pdb",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Core.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17004"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8WHsAF+yyMNiJswIXyFIWVN4XnejJQMPRk8RoI0vAes=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8WHsAF+yyMNiJswIXyFIWVN4XnejJQMPRk8RoI0vAes="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Dima.Core.pdb",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/7ot3rpcauk-tl6a63zx2t.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000106666667"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9374"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"x2ZywKWrbrAm6xLg9P905Rm6ViJv6LqKKyX6X+cFqsE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"8WHsAF+yyMNiJswIXyFIWVN4XnejJQMPRk8RoI0vAes=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8WHsAF+yyMNiJswIXyFIWVN4XnejJQMPRk8RoI0vAes="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Dima.Core.pdb.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/7ot3rpcauk-tl6a63zx2t.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9374"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"x2ZywKWrbrAm6xLg9P905Rm6ViJv6LqKKyX6X+cFqsE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-x2ZywKWrbrAm6xLg9P905Rm6ViJv6LqKKyX6X+cFqsE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Dima.Core.tl6a63zx2t.pdb",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Core.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17004"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8WHsAF+yyMNiJswIXyFIWVN4XnejJQMPRk8RoI0vAes=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "tl6a63zx2t"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Dima.Core.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8WHsAF+yyMNiJswIXyFIWVN4XnejJQMPRk8RoI0vAes="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Dima.Core.tl6a63zx2t.pdb",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/7ot3rpcauk-tl6a63zx2t.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000106666667"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9374"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"x2ZywKWrbrAm6xLg9P905Rm6ViJv6LqKKyX6X+cFqsE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"8WHsAF+yyMNiJswIXyFIWVN4XnejJQMPRk8RoI0vAes=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "tl6a63zx2t"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Dima.Core.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8WHsAF+yyMNiJswIXyFIWVN4XnejJQMPRk8RoI0vAes="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Dima.Core.tl6a63zx2t.pdb.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/7ot3rpcauk-tl6a63zx2t.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9374"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"x2ZywKWrbrAm6xLg9P905Rm6ViJv6LqKKyX6X+cFqsE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "tl6a63zx2t"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Dima.Core.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-x2ZywKWrbrAm6xLg9P905Rm6ViJv6LqKKyX6X+cFqsE="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Dima.Core.wasm",
+      "Route": "_framework/Dima.Core.3000o0yun2.wasm",
       "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Core.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -10533,148 +10235,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7EONiwGMwvykoFBmJhVYRc+4RGYNxWL51I0moYcIWkc=\""
+          "Value": "\"A7jBEbGc3aoE8Xgzt8+7MjJDC+zv3dAU05wO1b4DKTo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-7EONiwGMwvykoFBmJhVYRc+4RGYNxWL51I0moYcIWkc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Dima.Core.wasm",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/ewuwfwjju7-wprzx5pzfb.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000136276915"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7337"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LNEx7Kdb6aBJzkoHHoVHK9eUcwNeP6N1hpOSR8j7y3c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"7EONiwGMwvykoFBmJhVYRc+4RGYNxWL51I0moYcIWkc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-7EONiwGMwvykoFBmJhVYRc+4RGYNxWL51I0moYcIWkc="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Dima.Core.wasm.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/ewuwfwjju7-wprzx5pzfb.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7337"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LNEx7Kdb6aBJzkoHHoVHK9eUcwNeP6N1hpOSR8j7y3c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-LNEx7Kdb6aBJzkoHHoVHK9eUcwNeP6N1hpOSR8j7y3c="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Dima.Core.wprzx5pzfb.wasm",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Core.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17685"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7EONiwGMwvykoFBmJhVYRc+4RGYNxWL51I0moYcIWkc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 17:11:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10684,7 +10249,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wprzx5pzfb"
+          "Value": "3000o0yun2"
         },
         {
           "Name": "label",
@@ -10692,18 +10257,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7EONiwGMwvykoFBmJhVYRc+4RGYNxWL51I0moYcIWkc="
+          "Value": "sha256-A7jBEbGc3aoE8Xgzt8+7MjJDC+zv3dAU05wO1b4DKTo="
         }
       ]
     },
     {
-      "Route": "_framework/Dima.Core.wprzx5pzfb.wasm",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/ewuwfwjju7-wprzx5pzfb.gz",
+      "Route": "_framework/Dima.Core.3000o0yun2.wasm",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/ewuwfwjju7-3000o0yun2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000136276915"
+          "Quality": "0.000136165577"
         }
       ],
       "ResponseHeaders": [
@@ -10713,15 +10278,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7337"
+          "Value": "7343"
         },
         {
           "Name": "ETag",
-          "Value": "\"LNEx7Kdb6aBJzkoHHoVHK9eUcwNeP6N1hpOSR8j7y3c=\""
+          "Value": "\"JKezc3jkzrE93yUJleEf3xN485M6YG7dGBvUuTQ19QU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 17:11:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10741,13 +10306,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"7EONiwGMwvykoFBmJhVYRc+4RGYNxWL51I0moYcIWkc=\""
+          "Value": "W/\"A7jBEbGc3aoE8Xgzt8+7MjJDC+zv3dAU05wO1b4DKTo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wprzx5pzfb"
+          "Value": "3000o0yun2"
         },
         {
           "Name": "label",
@@ -10755,13 +10320,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7EONiwGMwvykoFBmJhVYRc+4RGYNxWL51I0moYcIWkc="
+          "Value": "sha256-A7jBEbGc3aoE8Xgzt8+7MjJDC+zv3dAU05wO1b4DKTo="
         }
       ]
     },
     {
-      "Route": "_framework/Dima.Core.wprzx5pzfb.wasm.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/ewuwfwjju7-wprzx5pzfb.gz",
+      "Route": "_framework/Dima.Core.3000o0yun2.wasm.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/ewuwfwjju7-3000o0yun2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10770,7 +10335,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7337"
+          "Value": "7343"
         },
         {
           "Name": "Content-Type",
@@ -10778,11 +10343,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LNEx7Kdb6aBJzkoHHoVHK9eUcwNeP6N1hpOSR8j7y3c=\""
+          "Value": "\"JKezc3jkzrE93yUJleEf3xN485M6YG7dGBvUuTQ19QU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 17:11:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10800,7 +10365,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wprzx5pzfb"
+          "Value": "3000o0yun2"
         },
         {
           "Name": "label",
@@ -10808,12 +10373,447 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LNEx7Kdb6aBJzkoHHoVHK9eUcwNeP6N1hpOSR8j7y3c="
+          "Value": "sha256-JKezc3jkzrE93yUJleEf3xN485M6YG7dGBvUuTQ19QU="
         }
       ]
     },
     {
-      "Route": "_framework/Dima.Web.gnjer9dfxd.pdb",
+      "Route": "_framework/Dima.Core.ne8vwb2l7n.pdb",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Core.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sTekfLfMQuHHiS5KZmOdWaqxCt7I+6msVV4JVq8/Bfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 17:11:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ne8vwb2l7n"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Dima.Core.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sTekfLfMQuHHiS5KZmOdWaqxCt7I+6msVV4JVq8/Bfc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Dima.Core.ne8vwb2l7n.pdb",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/7ot3rpcauk-ne8vwb2l7n.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000106655290"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9375"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZxbW9GM8x7AnfAyijQ+1twju4IFtlDxn1oikQuygZSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 17:11:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sTekfLfMQuHHiS5KZmOdWaqxCt7I+6msVV4JVq8/Bfc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ne8vwb2l7n"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Dima.Core.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sTekfLfMQuHHiS5KZmOdWaqxCt7I+6msVV4JVq8/Bfc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Dima.Core.ne8vwb2l7n.pdb.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/7ot3rpcauk-ne8vwb2l7n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9375"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZxbW9GM8x7AnfAyijQ+1twju4IFtlDxn1oikQuygZSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 17:11:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ne8vwb2l7n"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Dima.Core.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZxbW9GM8x7AnfAyijQ+1twju4IFtlDxn1oikQuygZSQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Dima.Core.pdb",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Core.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sTekfLfMQuHHiS5KZmOdWaqxCt7I+6msVV4JVq8/Bfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 17:11:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sTekfLfMQuHHiS5KZmOdWaqxCt7I+6msVV4JVq8/Bfc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Dima.Core.pdb",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/7ot3rpcauk-ne8vwb2l7n.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000106655290"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9375"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZxbW9GM8x7AnfAyijQ+1twju4IFtlDxn1oikQuygZSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 17:11:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sTekfLfMQuHHiS5KZmOdWaqxCt7I+6msVV4JVq8/Bfc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sTekfLfMQuHHiS5KZmOdWaqxCt7I+6msVV4JVq8/Bfc="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Dima.Core.pdb.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/7ot3rpcauk-ne8vwb2l7n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9375"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZxbW9GM8x7AnfAyijQ+1twju4IFtlDxn1oikQuygZSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 17:11:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZxbW9GM8x7AnfAyijQ+1twju4IFtlDxn1oikQuygZSQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Dima.Core.wasm",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Core.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A7jBEbGc3aoE8Xgzt8+7MjJDC+zv3dAU05wO1b4DKTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 17:11:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A7jBEbGc3aoE8Xgzt8+7MjJDC+zv3dAU05wO1b4DKTo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Dima.Core.wasm",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/ewuwfwjju7-3000o0yun2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000136165577"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7343"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JKezc3jkzrE93yUJleEf3xN485M6YG7dGBvUuTQ19QU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 17:11:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"A7jBEbGc3aoE8Xgzt8+7MjJDC+zv3dAU05wO1b4DKTo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A7jBEbGc3aoE8Xgzt8+7MjJDC+zv3dAU05wO1b4DKTo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Dima.Core.wasm.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/ewuwfwjju7-3000o0yun2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JKezc3jkzrE93yUJleEf3xN485M6YG7dGBvUuTQ19QU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 17:11:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JKezc3jkzrE93yUJleEf3xN485M6YG7dGBvUuTQ19QU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Dima.Web.aqjwmioyi0.pdb",
       "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Web.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -10823,7 +10823,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35864"
+          "Value": "43352"
         },
         {
           "Name": "Content-Type",
@@ -10831,11 +10831,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BFYD0KxKxXv5+vhzMIefqgKiBtR26k7GryPYQ9Xyg2Q=\""
+          "Value": "\"4okas8ZUYyQhwA1xeXEvhfEkgGD/73y2bia0K/cxAsk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10845,7 +10845,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gnjer9dfxd"
+          "Value": "aqjwmioyi0"
         },
         {
           "Name": "label",
@@ -10853,18 +10853,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BFYD0KxKxXv5+vhzMIefqgKiBtR26k7GryPYQ9Xyg2Q="
+          "Value": "sha256-4okas8ZUYyQhwA1xeXEvhfEkgGD/73y2bia0K/cxAsk="
         }
       ]
     },
     {
-      "Route": "_framework/Dima.Web.gnjer9dfxd.pdb",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/6rm4iddht2-gnjer9dfxd.gz",
+      "Route": "_framework/Dima.Web.aqjwmioyi0.pdb",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/6rm4iddht2-aqjwmioyi0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000038498556"
+          "Quality": "0.000031483172"
         }
       ],
       "ResponseHeaders": [
@@ -10874,15 +10874,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25974"
+          "Value": "31762"
         },
         {
           "Name": "ETag",
-          "Value": "\"LVGa7WlPkDukLDwzO8BYvtZM/soktmYMwNN6+g0pJiA=\""
+          "Value": "\"alfm5juFkVjRiYKGyLTOBDtAgUBMw6LrSz9kK7SX7kc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10902,13 +10902,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"BFYD0KxKxXv5+vhzMIefqgKiBtR26k7GryPYQ9Xyg2Q=\""
+          "Value": "W/\"4okas8ZUYyQhwA1xeXEvhfEkgGD/73y2bia0K/cxAsk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gnjer9dfxd"
+          "Value": "aqjwmioyi0"
         },
         {
           "Name": "label",
@@ -10916,13 +10916,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BFYD0KxKxXv5+vhzMIefqgKiBtR26k7GryPYQ9Xyg2Q="
+          "Value": "sha256-4okas8ZUYyQhwA1xeXEvhfEkgGD/73y2bia0K/cxAsk="
         }
       ]
     },
     {
-      "Route": "_framework/Dima.Web.gnjer9dfxd.pdb.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/6rm4iddht2-gnjer9dfxd.gz",
+      "Route": "_framework/Dima.Web.aqjwmioyi0.pdb.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/6rm4iddht2-aqjwmioyi0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10931,7 +10931,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25974"
+          "Value": "31762"
         },
         {
           "Name": "Content-Type",
@@ -10939,11 +10939,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LVGa7WlPkDukLDwzO8BYvtZM/soktmYMwNN6+g0pJiA=\""
+          "Value": "\"alfm5juFkVjRiYKGyLTOBDtAgUBMw6LrSz9kK7SX7kc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10961,7 +10961,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gnjer9dfxd"
+          "Value": "aqjwmioyi0"
         },
         {
           "Name": "label",
@@ -10969,12 +10969,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LVGa7WlPkDukLDwzO8BYvtZM/soktmYMwNN6+g0pJiA="
+          "Value": "sha256-alfm5juFkVjRiYKGyLTOBDtAgUBMw6LrSz9kK7SX7kc="
         }
       ]
     },
     {
-      "Route": "_framework/Dima.Web.in3b19lrvt.wasm",
+      "Route": "_framework/Dima.Web.cukifsqv6y.wasm",
       "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/bin/Debug/net9.0/wwwroot/_framework/Dima.Web.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -10984,7 +10984,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "42773"
+          "Value": "61205"
         },
         {
           "Name": "Content-Type",
@@ -10992,11 +10992,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PlwxN1jbEIgDGqGg1rcE5CUwZFqp2Dij0yYvVtWs3yw=\""
+          "Value": "\"/AbZ0yUC+8Kspyu5eOrJmr0eTppkAnMiR492OTMc954=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11006,7 +11006,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "in3b19lrvt"
+          "Value": "cukifsqv6y"
         },
         {
           "Name": "label",
@@ -11014,18 +11014,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PlwxN1jbEIgDGqGg1rcE5CUwZFqp2Dij0yYvVtWs3yw="
+          "Value": "sha256-/AbZ0yUC+8Kspyu5eOrJmr0eTppkAnMiR492OTMc954="
         }
       ]
     },
     {
-      "Route": "_framework/Dima.Web.in3b19lrvt.wasm",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/xujp3esvxf-in3b19lrvt.gz",
+      "Route": "_framework/Dima.Web.cukifsqv6y.wasm",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/xujp3esvxf-cukifsqv6y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000055595708"
+          "Quality": "0.000040713297"
         }
       ],
       "ResponseHeaders": [
@@ -11035,15 +11035,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17986"
+          "Value": "24561"
         },
         {
           "Name": "ETag",
-          "Value": "\"lBrhB2UqUQO1Yb5LIQR7duakTkPRGzf6nSk1Z8Sw4lg=\""
+          "Value": "\"IWfQDZJnHh0c7mFWedX6l3L0g7O2YYz6H6y2UQiYfIw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11063,13 +11063,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PlwxN1jbEIgDGqGg1rcE5CUwZFqp2Dij0yYvVtWs3yw=\""
+          "Value": "W/\"/AbZ0yUC+8Kspyu5eOrJmr0eTppkAnMiR492OTMc954=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "in3b19lrvt"
+          "Value": "cukifsqv6y"
         },
         {
           "Name": "label",
@@ -11077,13 +11077,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PlwxN1jbEIgDGqGg1rcE5CUwZFqp2Dij0yYvVtWs3yw="
+          "Value": "sha256-/AbZ0yUC+8Kspyu5eOrJmr0eTppkAnMiR492OTMc954="
         }
       ]
     },
     {
-      "Route": "_framework/Dima.Web.in3b19lrvt.wasm.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/xujp3esvxf-in3b19lrvt.gz",
+      "Route": "_framework/Dima.Web.cukifsqv6y.wasm.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/xujp3esvxf-cukifsqv6y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11092,7 +11092,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17986"
+          "Value": "24561"
         },
         {
           "Name": "Content-Type",
@@ -11100,11 +11100,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lBrhB2UqUQO1Yb5LIQR7duakTkPRGzf6nSk1Z8Sw4lg=\""
+          "Value": "\"IWfQDZJnHh0c7mFWedX6l3L0g7O2YYz6H6y2UQiYfIw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11122,7 +11122,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "in3b19lrvt"
+          "Value": "cukifsqv6y"
         },
         {
           "Name": "label",
@@ -11130,7 +11130,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lBrhB2UqUQO1Yb5LIQR7duakTkPRGzf6nSk1Z8Sw4lg="
+          "Value": "sha256-IWfQDZJnHh0c7mFWedX6l3L0g7O2YYz6H6y2UQiYfIw="
         }
       ]
     },
@@ -11145,7 +11145,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35864"
+          "Value": "43352"
         },
         {
           "Name": "Content-Type",
@@ -11153,11 +11153,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BFYD0KxKxXv5+vhzMIefqgKiBtR26k7GryPYQ9Xyg2Q=\""
+          "Value": "\"4okas8ZUYyQhwA1xeXEvhfEkgGD/73y2bia0K/cxAsk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11167,18 +11167,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BFYD0KxKxXv5+vhzMIefqgKiBtR26k7GryPYQ9Xyg2Q="
+          "Value": "sha256-4okas8ZUYyQhwA1xeXEvhfEkgGD/73y2bia0K/cxAsk="
         }
       ]
     },
     {
       "Route": "_framework/Dima.Web.pdb",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/6rm4iddht2-gnjer9dfxd.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/6rm4iddht2-aqjwmioyi0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000038498556"
+          "Quality": "0.000031483172"
         }
       ],
       "ResponseHeaders": [
@@ -11188,15 +11188,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25974"
+          "Value": "31762"
         },
         {
           "Name": "ETag",
-          "Value": "\"LVGa7WlPkDukLDwzO8BYvtZM/soktmYMwNN6+g0pJiA=\""
+          "Value": "\"alfm5juFkVjRiYKGyLTOBDtAgUBMw6LrSz9kK7SX7kc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11216,19 +11216,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"BFYD0KxKxXv5+vhzMIefqgKiBtR26k7GryPYQ9Xyg2Q=\""
+          "Value": "W/\"4okas8ZUYyQhwA1xeXEvhfEkgGD/73y2bia0K/cxAsk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BFYD0KxKxXv5+vhzMIefqgKiBtR26k7GryPYQ9Xyg2Q="
+          "Value": "sha256-4okas8ZUYyQhwA1xeXEvhfEkgGD/73y2bia0K/cxAsk="
         }
       ]
     },
     {
       "Route": "_framework/Dima.Web.pdb.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/6rm4iddht2-gnjer9dfxd.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/6rm4iddht2-aqjwmioyi0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11237,7 +11237,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25974"
+          "Value": "31762"
         },
         {
           "Name": "Content-Type",
@@ -11245,11 +11245,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LVGa7WlPkDukLDwzO8BYvtZM/soktmYMwNN6+g0pJiA=\""
+          "Value": "\"alfm5juFkVjRiYKGyLTOBDtAgUBMw6LrSz9kK7SX7kc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11267,7 +11267,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LVGa7WlPkDukLDwzO8BYvtZM/soktmYMwNN6+g0pJiA="
+          "Value": "sha256-alfm5juFkVjRiYKGyLTOBDtAgUBMw6LrSz9kK7SX7kc="
         }
       ]
     },
@@ -11282,7 +11282,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "42773"
+          "Value": "61205"
         },
         {
           "Name": "Content-Type",
@@ -11290,11 +11290,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PlwxN1jbEIgDGqGg1rcE5CUwZFqp2Dij0yYvVtWs3yw=\""
+          "Value": "\"/AbZ0yUC+8Kspyu5eOrJmr0eTppkAnMiR492OTMc954=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11304,18 +11304,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PlwxN1jbEIgDGqGg1rcE5CUwZFqp2Dij0yYvVtWs3yw="
+          "Value": "sha256-/AbZ0yUC+8Kspyu5eOrJmr0eTppkAnMiR492OTMc954="
         }
       ]
     },
     {
       "Route": "_framework/Dima.Web.wasm",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/xujp3esvxf-in3b19lrvt.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/xujp3esvxf-cukifsqv6y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000055595708"
+          "Quality": "0.000040713297"
         }
       ],
       "ResponseHeaders": [
@@ -11325,15 +11325,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17986"
+          "Value": "24561"
         },
         {
           "Name": "ETag",
-          "Value": "\"lBrhB2UqUQO1Yb5LIQR7duakTkPRGzf6nSk1Z8Sw4lg=\""
+          "Value": "\"IWfQDZJnHh0c7mFWedX6l3L0g7O2YYz6H6y2UQiYfIw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11353,19 +11353,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PlwxN1jbEIgDGqGg1rcE5CUwZFqp2Dij0yYvVtWs3yw=\""
+          "Value": "W/\"/AbZ0yUC+8Kspyu5eOrJmr0eTppkAnMiR492OTMc954=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PlwxN1jbEIgDGqGg1rcE5CUwZFqp2Dij0yYvVtWs3yw="
+          "Value": "sha256-/AbZ0yUC+8Kspyu5eOrJmr0eTppkAnMiR492OTMc954="
         }
       ]
     },
     {
       "Route": "_framework/Dima.Web.wasm.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/xujp3esvxf-in3b19lrvt.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/xujp3esvxf-cukifsqv6y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11374,7 +11374,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17986"
+          "Value": "24561"
         },
         {
           "Name": "Content-Type",
@@ -11382,11 +11382,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lBrhB2UqUQO1Yb5LIQR7duakTkPRGzf6nSk1Z8Sw4lg=\""
+          "Value": "\"IWfQDZJnHh0c7mFWedX6l3L0g7O2YYz6H6y2UQiYfIw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11404,7 +11404,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lBrhB2UqUQO1Yb5LIQR7duakTkPRGzf6nSk1Z8Sw4lg="
+          "Value": "sha256-IWfQDZJnHh0c7mFWedX6l3L0g7O2YYz6H6y2UQiYfIw="
         }
       ]
     },
@@ -75294,12 +75294,12 @@
     },
     {
       "Route": "service-worker-assets.js",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/1yfefky1x0-0skkrug2bx.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/1yfefky1x0-uauywtezxb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000085873766"
+          "Quality": "0.000085918034"
         }
       ],
       "ResponseHeaders": [
@@ -75309,15 +75309,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11644"
+          "Value": "11638"
         },
         {
           "Name": "ETag",
-          "Value": "\"/Mko6yQVL2IX7FUJXtc/9GLoKo2fJFrNF/jYCiXDArw=\""
+          "Value": "\"rly0jWtDRdjH+0F84I6js9QlnNWLB37XXg5pA+kYw44=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -75337,13 +75337,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"MFkOHIw3Zh5hYyc9oLGvXWEt92ne907QNJUFWCxyYNM=\""
+          "Value": "W/\"Gt4L1CWz6tqSkpWT/U73G/dbTiYrlgLeG9i8pjP8eqE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MFkOHIw3Zh5hYyc9oLGvXWEt92ne907QNJUFWCxyYNM="
+          "Value": "sha256-Gt4L1CWz6tqSkpWT/U73G/dbTiYrlgLeG9i8pjP8eqE="
         }
       ]
     },
@@ -75366,11 +75366,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MFkOHIw3Zh5hYyc9oLGvXWEt92ne907QNJUFWCxyYNM=\""
+          "Value": "\"Gt4L1CWz6tqSkpWT/U73G/dbTiYrlgLeG9i8pjP8eqE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -75380,13 +75380,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MFkOHIw3Zh5hYyc9oLGvXWEt92ne907QNJUFWCxyYNM="
+          "Value": "sha256-Gt4L1CWz6tqSkpWT/U73G/dbTiYrlgLeG9i8pjP8eqE="
         }
       ]
     },
     {
       "Route": "service-worker-assets.js.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/1yfefky1x0-0skkrug2bx.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/1yfefky1x0-uauywtezxb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -75395,7 +75395,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11644"
+          "Value": "11638"
         },
         {
           "Name": "Content-Type",
@@ -75403,11 +75403,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/Mko6yQVL2IX7FUJXtc/9GLoKo2fJFrNF/jYCiXDArw=\""
+          "Value": "\"rly0jWtDRdjH+0F84I6js9QlnNWLB37XXg5pA+kYw44=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -75425,13 +75425,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/Mko6yQVL2IX7FUJXtc/9GLoKo2fJFrNF/jYCiXDArw="
+          "Value": "sha256-rly0jWtDRdjH+0F84I6js9QlnNWLB37XXg5pA+kYw44="
         }
       ]
     },
     {
       "Route": "service-worker.js",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/70vn0rd6h7-6bm7gu83io.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/70vn0rd6h7-817fdc1zgm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -75454,7 +75454,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -75474,13 +75474,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"svTjpeBuYhFInDd+qiKWw4bblQWZt6et5Ud+QnqyRiM=\""
+          "Value": "W/\"XH4RzQCmnMFz2Vk0FNiWtQ1XfFpmFJ7bSItfF5epcrc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-svTjpeBuYhFInDd+qiKWw4bblQWZt6et5Ud+QnqyRiM="
+          "Value": "sha256-XH4RzQCmnMFz2Vk0FNiWtQ1XfFpmFJ7bSItfF5epcrc="
         }
       ]
     },
@@ -75503,7 +75503,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"svTjpeBuYhFInDd+qiKWw4bblQWZt6et5Ud+QnqyRiM=\""
+          "Value": "\"XH4RzQCmnMFz2Vk0FNiWtQ1XfFpmFJ7bSItfF5epcrc=\""
         },
         {
           "Name": "Last-Modified",
@@ -75517,13 +75517,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-svTjpeBuYhFInDd+qiKWw4bblQWZt6et5Ud+QnqyRiM="
+          "Value": "sha256-XH4RzQCmnMFz2Vk0FNiWtQ1XfFpmFJ7bSItfF5epcrc="
         }
       ]
     },
     {
       "Route": "service-worker.js.gz",
-      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/70vn0rd6h7-6bm7gu83io.gz",
+      "AssetFile": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Dima/Dima.Web/obj/Debug/net9.0/compressed/70vn0rd6h7-817fdc1zgm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -75544,7 +75544,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 18:50:17 GMT"
+          "Value": "Mon, 20 Jan 2025 20:13:29 GMT"
         },
         {
           "Name": "Cache-Control",
