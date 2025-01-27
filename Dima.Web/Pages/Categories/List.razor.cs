@@ -13,6 +13,7 @@ public partial class ListPage : ComponentBase
 
     public bool IsBusy { get; set; } = false;
     public List<Category> Categories { get; set; } = [];
+    public string SearchTerm { get; set; } = String.Empty;
 
     #endregion
     
@@ -20,6 +21,9 @@ public partial class ListPage : ComponentBase
 
     [Inject]
     public ISnackbar Snackbar { get; set; } = null!;
+    
+    [Inject]
+    public IDialogService DialogService { get; set; } = null!;
     
     [Inject]
     public ICategoryHandler Handler { get; set; } = null!;
@@ -48,5 +52,55 @@ public partial class ListPage : ComponentBase
         }
     }
     
+    #endregion
+    
+    #region Methods
+
+    public async void OnDeleteButtomClicked(long id, string title)
+    {
+        var result = await DialogService.ShowMessageBox("ATENÇÃO",
+            "Ao prosseguir a categoria {title} será excluida. Esta ação é irreversível! Deseja continuar?"
+            , yesText: "EXCLUIR",
+            cancelText: "Cancelar");
+
+        if (result is true)
+            await OnDeleteAsync(id, title);
+        
+        StateHasChanged();
+    }
+
+    public async Task OnDeleteAsync(long id, string title)
+    {
+        try
+        {
+            var request = new DeleteCategoryRequest { Id = id };
+            await Handler.DeleteAsync(request);
+            Categories.RemoveAll(x => x.Id == id);
+            Snackbar.Add($"Categoria {title} excluída", Severity.Success);
+        }
+        catch (Exception e)
+        {
+            Snackbar.Add($"Error: {e.Message}", Severity.Error);
+        }
+    }
+
+    public Func<Category, bool> Filter => category =>
+    {
+        if (string.IsNullOrEmpty(SearchTerm))
+            return true;
+
+        if (category.Id.ToString().Contains(SearchTerm, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        if (category.Title.Contains(SearchTerm, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        if (category.Description is not null &&
+            category.Description.Contains(SearchTerm, StringComparison.OrdinalIgnoreCase))
+            return true;
+
+        return false;
+    };
+
     #endregion
 }

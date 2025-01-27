@@ -13,5 +13,5 @@ public class UpdateCategoryRequest : BaseRequest
 
     [Required(ErrorMessage = "Descricao é obrigatória.")]
     [MaxLength(200, ErrorMessage = "A descrição deve conter no máximo 200 caracteres.")]
-    public string Description { get; set; } = string.Empty;
+    public string? Description { get; set; }
 }
